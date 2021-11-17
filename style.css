@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 30px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    margin: 40px auto;
+    display: flex;
+    max-width: 1320px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 16px;
+    border-bottom: 1px lightgray solid;
+}
+header input{
+   padding: 5px 10px;
+
+}
+nav{
+    align-items: center;
+    width: 14vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+}
+main{
+    display: flex;
+}
+.stories{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    flex-basis: 25%;
+  
+}
+.stories h2{
+    font-size: 32px;
+    font-weight: 400;
+    border-bottom: 1px black solid;
+    padding-bottom: 5px;
+}
+.stories-user-wrapper{
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.stories-user-wrapper i{
+    font-size: 36px;
+  margin-bottom: 25px;
+  color: darkblue;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+     flex-grow: 1;
+     flex-basis: 25%;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+}
+.message h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    border-bottom: 1px black solid;
+    padding: 0 0 5px 0;
+}
+.message-user-wrapper{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.conversations{
+    display: flex;
+    width: 15vw;
+   
+}
+.conversations p{
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+}
+.conversations i{
+    font-size: 28px;
+    color: darkblue;
+}
+.new-chat-wrapper{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+.new-chat{
+    display: flex;
+    width: 15vw;
+}
+.new-chat p{
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+}
+.new-chat i{
+    font-size: 28px;
+    color: darkblue;
+}
+/* MAIN */
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    flex-basis: 50%;
+}
+.post-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 28vw;
+    height: 22vh;
+    margin-top:25px;
+}
+.post-container input{
+    display: flex;
+    padding: 0px;
+    height: 20%;
+    outline:none;
+    font-size: 20px;
+    border: 0;
+}
+.post-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+  margin: 0;
+}
+.post-wrapper i{
+    margin-right: 10px;
+    font-size: 22px;
+}
+.maincontent button{
+    align-self: flex-end;
+    padding: 5px 25px;
+    border-radius: 3px;
+    margin-right: 20px;
+    background-color: rgb(78, 172, 231); /* Green */
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
